@@ -47,48 +47,36 @@ That's because no theme is added to the Hugo site.
 ### For now it has only been bureaucracy. The fun part is starting now:
 
 1. Comment out or delete the variable `theme` in [`config.toml` file](https://github.com/craftsmandigital/hugo-test-modules/blob/master/config.toml)
-
    ```toml
    # theme = "hugo-xmin
    ```
-   We no longer need this variable since we make use of **Hugo modules** (It is possible to use the `theme` variable to mount modules. For simplicity you use the new preferred method).
-
+   We no longer need this variable since we make use of **Hugo modules** (It is possible to use the `theme` variable to mount modules. For simplicity you use the new preferred method).</br></br>
    
-
-1. Add this to your [`config.toml` file](https://github.com/craftsmandigital/hugo-test-modules/blob/master/config.toml) to specify a theme as Hugo module:
+2. Add this to your [`config.toml` file](https://github.com/craftsmandigital/hugo-test-modules/blob/master/config.toml) to specify a theme as Hugo module:
    ```toml
    [module]
      [[module.imports]]
        path = "github.com/yihui/hugo-xmin"
    ```
-   
    > You don't have to specify the folder to mount to, neither that it is a theme you are mounting. By default **Hugo modules** behave as it is a theme. Hugo mounts github.com/yihui/hugo-xmin in the Hugo theme folder.
    
-1. Initialize project as **Hugo module**. Go to CLI and type in this command in your Hugo site:
+3. Initialize project as **Hugo module**. Go to CLI and type in this command in your Hugo site:
    ```bash
    hugo mod init ugly-dummy
    ```
-   YES IT WAS `ugly-dummy` (It really doesn't mater what the parameter is to the `hugo mod init` command, but there are some restrictions on ".", "/", etc.). I think it's more appropriate to name the module as your Hugo site name. In this case hugo-test-modules. but ugly-dummy is also fine.
-   
-   The command could output something like this:
-   
-   `go: creating new go.mod: module ugly-dummy`
-
-   *information: a new file* `go.mod` *was created*
-   
-1. Test your site:
+   YES IT WAS `ugly-dummy` (It really doesn't mater what the parameter is to the `hugo mod init` command, but there are some restrictions on ".", "/", etc.). I think it's more appropriate to name the module as your Hugo site name. In this case hugo-test-modules. but ugly-dummy is also fine.</br></br>
+   The command could output something like this:</br>
+   `go: creating new go.mod: module ugly-dummy`</br>
+   *information: a new file* `go.mod` *was created*</br ></br>
+4. Test your site:
    ```bash
    hugo serve
    ```
+   Your site should look exactly the same as [this site](https://xmin.yihui.name/)</br>
+   *information: a new file* `go.sum` *was created*</br></br>
    
-   Your site should look exactly the same as [this site](https://xmin.yihui.name/)
-   
-   *information: a new file* `go.sum` *was created*
-
 1. Now its time to upload your finished site to **GitHub**. 
-   
-   [Create a **GitHub** Repo](https://github.com/new) and name it `hugo-test-modules`
-   
+   [Create a **GitHub** Repo](https://github.com/new) and name it `hugo-test-modules`</br>
    Git commands to upload repo:
 
    ```bash
