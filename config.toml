@@ -88,18 +88,18 @@ youtube = "UCT-U0rNerYxItGcuoPX-WYA"
 [params.comments]
 enable = false
 
-# Isso: https://posativ.org/isso/
-[params.comments.isso]
-enable = false
-scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
-dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
+# # Isso: https://posativ.org/isso/
+# [params.comments.isso]
+# enable = false
+# scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
+# dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
-[params.comments.staticman]
-enable = true
-apiEndpoint = "https://api.staticman.net/v2/entry"
-maxDepth = 2
-username = "MunifTanjim"
-repository = "minimo"
+# [params.comments.staticman]
+# enable = true
+# apiEndpoint = "https://api.staticman.net/v2/entry"
+# maxDepth = 2
+# username = "MunifTanjim"
+# repository = "minimo"
 
 # Utterances: https://utteranc.es
 [params.comments.utterances]
@@ -107,8 +107,8 @@ enable = false
 issueTerm = "pathname" # pathname / url / title
 
 [params.comments.utterances.github]
-username = "MunifTanjim"
-repository = "minimo"
+username = "craftsmandigital"
+repository = "hugo-minimo"
 
 [params.search]
 client = "lunr"
