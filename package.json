@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "hugo && node ./test/generate-search-index-lunr.js"
+    "start": "hugo --minify&& node ./mics/generate-search-index-lunr.js"
   },
   "repository": {
     "type": "git",

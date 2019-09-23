@@ -1,8 +1,8 @@
 # About Widget config
 [about]
-title = ""                            # default: .Site.Title
-description = ""                      # default: .Site.Params.info.description
-logo = "/images/logo.png"             # default: "/images/logo.png"
+title = " "                            # default: .Site.Title
+description = "</br>this is coool"                      # default: .Site.Params.info.description
+logo = "/images/bilde2.png"             # default: "/images/logo.png"
 
 # Breadcrumbs Widget config
 [breadcrumbs]
