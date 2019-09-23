@@ -6,7 +6,7 @@ logo = "/images/bilde2.png"             # default: "/images/logo.png"
 
 # Breadcrumbs Widget config
 [breadcrumbs]
-separator = "/"                      # default: "/"
+separator = "➫"                      # default: "/"
 excludeParents = ["page"]            # default: ["page"]
 
 # Recent Posts Widget config
@@ -26,7 +26,7 @@ mirror = ""                           # default: ""
 
 # Social Menu Widget config
 [social_menu]
-title = ""                            # default: ""
+title = "Social media"                            # default: ""
 platforms = ["github","facebook","twitter","instagram","email","codepen","gitlab","linkedin","telegram","google_scholar","youtube"]
 
 # Taxonomy Cloud Widget config

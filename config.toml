@@ -26,8 +26,7 @@ description = "Jon Arne Viksås | a web enthusiast | personal blog about tech an
 title404 = "Nothing's here!"
 
 [params.assets]
-favicon = "bilde3.ico"
-# favicon = "favicon.ico"
+favicon = "favicon.ico"
 customCSS = ["css/custom.css"]
 customJS = ["js/custom.js"]
 gopher = "" # used in 404 template ( Generator: https://gopherize.me )
@@ -81,17 +80,18 @@ page = "" # Twitter page username
 titleSeparator = "•"
 
 [params.social]
-codepen = "MunifTanjim"
-email = "contact@example.com"
-facebook = "MunifTanjim"
-github = "MunifTanjim"
-gitlab = "MunifTanjim"
-instagram = "MunifTanjim"
-linkedin = "muniftanjim"
-twitter = "MunifTanjim"
-telegram = "MunifTanjim"
-google_scholar = "qc6CJjYAAAAJ"
-youtube = "UCT-U0rNerYxItGcuoPX-WYA"
+# codepen = "MunifTanjim"
+# email = "craftsmandigital@gmail.com"
+# facebook = "MunifTanjim"
+github = "craftsmandigital"
+# gitlab = "MunifTanjim"
+# instagram = "craftsmandigital"
+linkedin = "jon-arne-viksaas"
+facebook = "craftsmandigital.craftsmandigital.7"
+# twitter = "MunifTanjim"
+# telegram = "MunifTanjim"
+# google_scholar = "qc6CJjYAAAAJ"
+youtube = "UCvu5ZtqJ-pyncc-ZMt3QYsw"
 
 [params.comments]
 enable = false

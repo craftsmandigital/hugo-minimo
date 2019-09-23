@@ -15,7 +15,7 @@ For the first time I have been able to use the **Hugo modules** feature. Thanks 
 For other **Hugo modules** noobs that are fighting with **Hugo modules**. This is a step by step guide to help you to get up and running with Hugo modules. 
 
 ## Part 1. Prepare a Hugo site to test out Hugo modules
-### Install latest version of **go** on your computer
+### Install latest version of go on your computer
 
 Make sure that you have installed a recent version of **go** on your computer. [Here is the link to the **go** install](https://golang.org/dl/). Follow the instructions carefully. [The `hugo mod` commands](https://gohugo.io/commands/hugo_mod/) do not work without doing this. If you use the `hugo mod` commands, without installing **go**, nothing happens. You don't get an error message as feedback.
 
@@ -135,7 +135,7 @@ Do you recognize `new-stuff` from your [`config.toml` file](https://github.com/c
 ### Upload your site to GitHub with two modules added.
 
 ```bash
-git add -A && git commit -m "Initial Commit"
+git add -A && git commit -m "Added Hugo module"
 git push -u origin master
 ```
 
