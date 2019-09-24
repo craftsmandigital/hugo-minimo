@@ -27,6 +27,9 @@ Minimo keeps the focus on your content and lets it shine!
   <p>
     <label>Message: <textarea name="message"></textarea></label>
   </p>
+    </p>
+  <div data-netlify-recaptcha="true"></div>
+  <p>
   <p>
     <button type="submit">Send</button>
   </p>
