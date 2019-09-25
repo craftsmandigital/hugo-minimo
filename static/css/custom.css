@@ -22,7 +22,8 @@ img[style*="float:right"] {
 .footer 
 {
     background-color:#E8F1FB;
-  height: 57vh;
+min-height: 175px;
+    height: 25vh;
   /* clip-path: polygon(0 0, 100% 10vh, 100% 100%, 0 100%); */
   clip-path: polygon(0 0, 100% 30%, 100% 100%, 0% 100%);
 
@@ -33,6 +34,7 @@ img[style*="float:right"] {
     background-color:#E8F1FB;
   /* position: relative; */
   /* width: 100vw; */
+  
   height: 20vh;
   /* background: linear-gradient(to left, red, orange);  */
   /* clip-path: polygon(0 0, 100% 0, 100% 22vh, 0 100%); */
