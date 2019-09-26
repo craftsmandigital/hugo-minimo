@@ -1,0 +1,13 @@
+id = "craftsmandigital"
+
+[email]
+username = "craftsmandigital"
+host = "gmail.com"
+
+[name]
+display = "Jon Arne Viksås"
+
+[social]
+email = ""
+# facebook  = "craftsmandigital"
+# twitter = "craftsmandigital"
