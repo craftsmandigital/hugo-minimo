@@ -18,30 +18,22 @@ img[style*="float:right"] {
     
 .title,h2{color:#668599}
 
-
+.main-menu 
+{
+  background-color:#E8F1FB;
+  min-height: 100px;
+  height: 7vh;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 40%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 40%, 0% 100%);
+}
 .footer 
 {
     background-color:#E8F1FB;
-min-height: 175px;
-    height: 25vh;
+    min-height: 175px;
+    height: 15vh;
   /* clip-path: polygon(0 0, 100% 10vh, 100% 100%, 0 100%); */
-  clip-path: polygon(0 0, 100% 30%, 100% 100%, 0% 100%);
-
-}
-.main-menu 
-{
-/* https://codepen.io/stevenkuipers/pen/VGjzXo */
-    background-color:#E8F1FB;
-  /* position: relative; */
-  /* width: 100vw; */
-  
-  height: 20vh;
-  /* background: linear-gradient(to left, red, orange);  */
-  /* clip-path: polygon(0 0, 100% 0, 100% 22vh, 0 100%); */
-  /* clip-path: polygon(100% 23%, 0 0, 0 45%); */
-clip-path: polygon(0 0, 100% 0, 100% 24%, 0% 100%);
- /* clip-path: polygon(0 24%, 0 76%, 100% 52%) */
- /* clip-path: polygon(0 0, 100% 10vh, 100% 10vh, 0 100%); */
+  -webkit-clip-path: polygon(0 0, 100% 50%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 50%, 100% 100%, 0% 100%);
 }
 .title,h1{color:#003d66}
 .sidebar
