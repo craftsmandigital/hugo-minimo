@@ -17,7 +17,7 @@ excludeTypes = ["page"]               # default: ["page"]
 
 # Search Widget config
 [search]
-title = "Search"                      # default: "Search"
+title = ""                      # default: "Search"
 
 # Sidebar Menu Widget config
 [sidebar_menu]
@@ -26,7 +26,7 @@ mirror = ""                           # default: ""
 
 # Social Menu Widget config
 [social_menu]
-title = "Social media"                            # default: ""
+title = "Social"                            # default: ""
 platforms = ["github","facebook","twitter","instagram","email","codepen","gitlab","linkedin","telegram","google_scholar","youtube"]
 
 # Taxonomy Cloud Widget config

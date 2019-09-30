@@ -65,7 +65,7 @@ enable = true
 header = ["breadcrumbs"]
 homepage = ["recent_posts"]
 sidebar = ["about","sidebar_menu","search","taxonomy_cloud"]
-footer = ["social_menu"]
+footer = ["social_menu","search"]
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs

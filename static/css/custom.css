@@ -29,8 +29,8 @@ img[style*="float:right"] {
 .footer 
 {
     background-color:#E8F1FB;
-    min-height: 175px;
-    height: 15vh;
+    min-height: 340px;
+    height: 40vh;
   /* clip-path: polygon(0 0, 100% 10vh, 100% 100%, 0 100%); */
   -webkit-clip-path: polygon(0 0, 100% 50%, 100% 100%, 0% 100%);
           clip-path: polygon(0 0, 100% 50%, 100% 100%, 0% 100%);
