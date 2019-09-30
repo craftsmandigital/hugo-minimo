@@ -40,3 +40,4 @@ img[style*="float:right"] {
 {
   background-color:#E8F1FB;
 }
+a{color:#6070a9;text-decoration:none;-webkit-transition:color .1s ease-in-out;transition:color .1s ease-in-out}a:focus{outline-color:#ffcd00}a:active,a:hover{outline:0}a:active,a:focus,a:hover{color:#009900}

@@ -1,15 +1,10 @@
 ---
-title: About
-description: What does Minimo even means?!
+title: contact
+description: You are welcome to contact me
 menu: main
 weight: -210
 ---
 
-Mínimo is a Spanish word that roughly translate to Minimal.
-
-Minimo is a minimalist theme for Hugo.
-
-Minimo keeps the focus on your content and lets it shine!
 
 <form name="contact" method="POST" data-netlify="true">
   <p>
@@ -17,12 +12,6 @@ Minimo keeps the focus on your content and lets it shine!
   </p>
   <p>
     <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
   </p>
   <p>
     <label>Message: <textarea name="message"></textarea></label>

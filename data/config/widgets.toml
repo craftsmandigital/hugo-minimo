@@ -1,8 +1,9 @@
 # About Widget config
 [about]
 title = " "                            # default: .Site.Title
-description = "</br>this is coool"                      # default: .Site.Params.info.description
-logo = "/images/bilde2.png"             # default: "/images/logo.png"
+description = "Jon Arne Viksås</br>CraftsmanDigital"                      # default: .Site.Params.info.description
+# logo = "/images/bilde2.png"             # default: "/images/logo.png"
+logo = "favicon.ico"             # default: "/images/logo.png"
 
 # Breadcrumbs Widget config
 [breadcrumbs]
