@@ -13,8 +13,8 @@ copyright = ""
     disabled = false
 
     [[module.imports.mounts]]
-    # source = "hugo-minimo"
-     source = "."
+    source = "hugo-minimo"
+    #  source = "."
     target = "content"
 
 
