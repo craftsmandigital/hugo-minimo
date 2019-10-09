@@ -3,19 +3,6 @@ title = "CraftsmanDigital"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
 
-[module]
-  [[module.imports]]
-    path = "github.com/MunifTanjim/minimo"
-
-
-[[module.imports]]
-    path = "github.com/craftsmandigital/content"
-    disabled = false
-
-    [[module.imports.mounts]]
-    source = "hugo-minimo"
-    #  source = "."
-    target = "content"
 
 
 

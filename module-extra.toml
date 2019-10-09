@@ -1,0 +1,19 @@
+[module]
+  [[module.imports]]
+    path = "github.com/MunifTanjim/minimo"
+
+
+[[module.imports]]
+    path = "github.com/craftsmandigital/content"
+    disabled = false
+
+    [[module.imports.mounts]]
+    source = "hugo-minimo"
+    #  source = "."
+    target = "content"
+
+
+    [[module.imports.mounts]]
+    source = "notes"
+    #  source = "."
+    target = "content/notes"
