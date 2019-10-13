@@ -8,7 +8,7 @@ copyright = ""
 
 
 
-disqusShortname = "craftsmandigital"
+# disqusShortname = "craftsmandigital"
 googleAnalytics = ""
 
 Paginate = 8
