@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "hugo --gc --config config.toml,module.toml       --minify && node ./mics/generate-search-index-lunr.js",
-    "more": "hugo --gc --config config.toml,module-extra.toml --minify && node ./mics/generate-search-index-lunr.js"
+    "start": "hugo --gc --config module.toml,config.toml       --minify && node ./mics/generate-search-index-lunr.js",
+    "more": "hugo --gc --config module-extra.toml,config.toml --minify && node ./mics/generate-search-index-lunr.js"
   },
   "repository": {
     "type": "git",
