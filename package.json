@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "hugo --gc --config module.toml,config.toml       --minify && node ./mics/generate-search-index-lunr.js",
-    "more": "hugo --gc --config module-extra.toml,config.toml --minify && node ./mics/generate-search-index-lunr.js"
+    "more": "hugo --gc --config module-extra.toml,config.toml --minify && node ./mics/generate-search-index-lunr.js && find ./public -type f -name \"*.html\" -print0 | xargs -0 sed -i'' -e 's/Jon Arne Viksås/Ugly Bugly/g'"
   },
   "repository": {
     "type": "git",
