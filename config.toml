@@ -9,7 +9,7 @@ copyright = ""
 
 
 # disqusShortname = "craftsmandigital"
-googleAnalytics = ""
+googleAnalytics = "UA-152754562-1"
 
 Paginate = 8
 preserveTaxonomyNames = true
