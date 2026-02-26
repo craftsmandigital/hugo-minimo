@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/craftsmandigital/hugo-minimo#readme",
   "dependencies": {
-    "glob": "^7.1.4",
+    "glob": "^13.0.6",
     "lunr": "^2.3.7"
   }
 }
